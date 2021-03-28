@@ -10,7 +10,7 @@ export default class Cnumber {
   }
 
   positive() {
-    const fn = (num) => num >= 0;
+    const fn = (num) => num > 0;
     this.rules = [...this.rules, fn];
     return this;
   }
